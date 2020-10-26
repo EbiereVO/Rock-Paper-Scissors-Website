@@ -32,7 +32,6 @@
 
       <main id="main">
         <button class="btn-circle btn-paper pick" data-choice="paper">
-          <div></div>
           <span class="wrapper">
             <img src="./images/icon-paper.svg" alt="paper icon" />
           </span>
@@ -61,16 +60,17 @@
           </span>
         </button>
       </div>
+
       <div>
         <p class="big-text">
           You
-          <span id="win">Win</span>
+          <span id="winner">win</span>
         </p>
         <button class="btn" id="reset">Play again</button>
       </div>
       <div>
         <h2>The House Picked</h2>
-        <button class="btn-circle btn-rock">
+        <button class="btn-circle btn-rock" id="computer_select">
           <span class="wrapper">
             <img src="./images/icon-rock.svg" alt="rock icon" />
           </span>
