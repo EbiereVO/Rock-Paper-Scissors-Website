@@ -30,59 +30,29 @@
         </div>
       </header>
 
-      <main>
-        <button data-choice="paper">
-          <div class="circle circle-paper">
-            <span class="wrapper">
-              <img src="./images/icon-paper.svg" alt="paper icon" />
-            </span>
-          </div>
+      <main id="main">
+        <button class="btn-circle btn-paper pick" data-choice="paper">
+          <div></div>
+          <span class="wrapper">
+            <img src="./images/icon-paper.svg" alt="paper icon" />
+          </span>
         </button>
-        <button data-choice="scissors">
-          <div class="circle circle-scissors">
-            <span class="wrapper">
-              <img src="./images/icon-scissors.svg" alt="scissors icon" />
-            </span>
-          </div>
+        <button class="btn-circle btn-scissors pick" data-choice="scissors">
+          <span class="wrapper">
+            <img src="./images/icon-scissors.svg" alt="scissors icon" />
+          </span>
         </button>
-        <button data-choice="rock">
-          <div class="circle circle-rock">
-            <span class="wrapper">
-              <img src="./images/icon-rock.svg" alt="rock icon" />
-            </span>
-          </div>
+        <button class="btn-circle btn-rock pick" data-choice="rock">
+          <span class="wrapper">
+            <img src="./images/icon-rock.svg" alt="rock icon" />
+          </span>
         </button>
       </main>
 
-      <!-- <div class="selection">
-        <div>
-          <h2>You Picked</h2>
-          <button class="btn-circle btn-paper">
-            <span class="wrapper">
-              <img src="./images/icon-paper.svg" alt="paper icon" />
-            </span>
-          </button>
-        </div>
-        <div>
-          <p class="big-text">
-            You
-            <span id="win">Win</span>
-          </p>
-          <button class="btn" id="reset">Play again</button>
-        </div>
-        <div>
-          <h2>The House Picked</h2>
-          <button class="btn-circle btn-rock">
-            <span class="wrapper">
-              <img src="./images/icon-rock.svg" alt="rock icon" />
-            </span>
-          </button>
-        </div>
-      </div> -->
-
       <button class="btn-rules">Rules</button>
     </div>
-    <div class="selection">
+
+    <div class="selection" id="selection">
       <div>
         <h2>You Picked</h2>
         <button class="btn-circle btn-paper">

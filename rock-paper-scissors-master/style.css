@@ -39,6 +39,12 @@ h1 {
   font-size: 3rem;
   margin: 0;
 }
+
+h2 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 h4 {
   color: hsl(229, 64%, 46%);
   margin: 0;
@@ -92,6 +98,15 @@ main::before {
   width: 150px;
   margin: 0 25px;
   box-shadow: inset 0 -6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.btn-circle:focus {
+  outline: none;
+}
+
+.btn-circle:active {
+  transform: scale(0.9);
 }
 
 .btn-circle .wrapper {
@@ -152,7 +167,7 @@ main::before {
 }
 
 .selection {
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   text-align: center;
@@ -162,7 +177,7 @@ main::before {
 }
 
 .selection .btn-circle {
-  transform: scale(1.4);
+  transform: scale(1.5);
   margin: 50px;
 }
 
